@@ -1,0 +1,5 @@
+# meta.json carries the NMCrate apiKey, a secret. Commit meta.example.json instead;
+# copy it to meta.json and paste your key in.
+meta.json
+
+node_modules/
