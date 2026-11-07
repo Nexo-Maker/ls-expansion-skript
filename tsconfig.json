@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
+    "types": [],
+    "baseUrl": ".",
+    "paths": {
+      "script-writer": [
+        "lib/script-writer/lib.ts"
+      ],
+      "script-writer/*": [
+        "lib/script-writer/*"
+      ],
+      "target-kit": [
+        "lib/target-kit/lib.ts"
+      ],
+      "target-kit/*": [
+        "lib/target-kit/*"
+      ],
+      "skript-lang": [
+        "lib/skript-lang/lib.ts"
+      ],
+      "skript-lang/*": [
+        "lib/skript-lang/*"
+      ],
+      "skript-gui": [
+        "lib/skript-gui/lib.ts"
+      ],
+      "skript-gui/*": [
+        "lib/skript-gui/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "lib",
+    ".ldstudio/sdk.d.ts",
+    ".ldstudio/react.d.ts"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "skript",
+  "name": "Skript",
+  "version": "0.1.0",
+  "description": "Export Mechanics and GUIs as Skript scripts instead of Denizen.",
+  "author": "Lode Studio",
+  "apiKey": "API-Key-Goes-Here",
+  "sdkVersion": "^2.1.0",
+  "permissions": [],
+  "dependencies": {}
+}
